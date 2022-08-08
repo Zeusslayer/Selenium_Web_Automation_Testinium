@@ -1,4 +1,4 @@
-package com.example;
+package webautomation;
 
 /**
  * Hello world!
