@@ -4,15 +4,10 @@ import static org.junit.Assert.assertTrue;
 import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WebDriver.Timeouts;
-import org.openqa.selenium.support.ui.Wait;
-import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AppTest {
@@ -57,7 +52,7 @@ public class AppTest {
         searchbox.sendKeys(Keys.CONTROL + "a", Keys.DELETE); // clear the searchbox
         sleepingTime(1);
         searchbox.sendKeys(cellB1, Keys.ENTER); // send the search keyword to the searchbox and press enter
-        sleepingTime(3);
+        sleepingTime(5);
 
         // find the list of productIDs by xpath
         List<WebElement> searchResults = driver.findElements(By.xpath("//div[@data-component-name='list']"));

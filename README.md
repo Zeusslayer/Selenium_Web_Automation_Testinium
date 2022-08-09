@@ -1,8 +1,8 @@
 # Selenium_Web_Automation_Testinium
- 
+
 A small web automation task from Testinium
 
-
+You can import the json file I put in the project into the Postman and then just run the requests.(Please use your own Key and Token to check if it is working)
 
 Sources I have used:
     https://mvnrepository.com/
@@ -15,3 +15,4 @@ Sources I have used:
     https://www.edureka.co/community/35526/handling-combo-box-drop-downs-in-selenium
     https://www.tutorialspoint.com/how-do-i-verify-that-an-element-does-not-exist-in-selenium-2#:~:text=We%20can%20verify%20if%20an,text%20of%20the%20element%20exists.
     https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-post
+    https://semihsaydam.medium.com/seleniumda-page-object-pattern-yapısı-d152c916505d
