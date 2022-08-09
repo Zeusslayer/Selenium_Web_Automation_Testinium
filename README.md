@@ -2,8 +2,9 @@
  
 A small web automation task from Testinium
 
-Sources I have used:
 
+
+Sources I have used:
     https://mvnrepository.com/
     https://www.selenium.dev/documentation/webdriver
     https://www.baeldung.com/java-microsoft-excel
@@ -11,3 +12,6 @@ Sources I have used:
     https://stackoverflow.com/questions/9643610/how-to-including-variables-within-strings
     https://stackoverflow.com/questions/30324760/how-to-get-attribute-of-element-from-selenium
     https://stackoverflow.com/questions/24795198/get-all-child-elements
+    https://www.edureka.co/community/35526/handling-combo-box-drop-downs-in-selenium
+    https://www.tutorialspoint.com/how-do-i-verify-that-an-element-does-not-exist-in-selenium-2#:~:text=We%20can%20verify%20if%20an,text%20of%20the%20element%20exists.
+    https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-post
